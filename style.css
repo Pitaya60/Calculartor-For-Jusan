@@ -1,0 +1,53 @@
+body {
+    background: linear-gradient(to right, #E0E2DB, #D2D4C8, #B8BDB5, #889696, #5F7470);
+    font: 300 18px/1.6 "Source Sans Pro", sans-serif;
+    margin: 0;
+    padding: 5em 0 2em;
+    text-align: center;
+    color: white; 
+}
+h1 {
+    font-weight: 300;
+    margin: 0;
+}
+
+.calculator {
+    font-size: 28px;
+    margin: 0 auto;
+    width: 10em;
+}
+
+.clear_button {
+    border: 0;
+    background: #5F7470;
+    color: #ffff;
+    cursor: pointer;
+    float: left;
+    font: inherit;
+    margin: 0.25em;
+    width: 2em;
+    height: 2em;
+}
+
+button {
+    border: 0;
+    background: #5F7470;
+    color: #ffff;
+    cursor: pointer;
+    float: left;
+    font: inherit;
+    margin: 0.25em;
+    width: 2em;
+    height: 2em;
+    transition: all 0.5s;
+}
+.zero{
+    color: #ffff;
+    float: left;
+    line-height: 3em;
+    text-align: right;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 6.5em;
+    height:3em;
+}
